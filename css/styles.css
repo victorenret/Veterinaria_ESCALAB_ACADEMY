@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+
+a{
+    text-decoration: none;
+}
+/* OPEN NAV*/
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    color: white;
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+}
+
+.logo{
+    padding-right: 100px;
+}
+
+.btn-nav{
+    margin-left: 100px;
+}
+/*END NAV*/
+
+.img-header{
+    height: 570px;
+    padding-right: 100px;
+}
+
+/* OPEN CONTAINERS*/
+.container-global{
+    width: 1440px;
+    height: 8000px;
+    margin: auto;
+    outline: 2px solid black;
+    background-color: rgba(255, 0, 0, .5);
+    
+}
+
+.container-nav{
+    width: 1440px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daac00;
+    /* outline: 2px solid black; */
+}
+
+.btns-yellow{
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin-right: 50px;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+}
+
+.btns-yellow:hover{
+    background-color: #00bec9;
+    transform: scale(0.95);
+}
+/*--------------------------------------------------------------------------------------------------------*/
+/*OPEN SECCION 1*/
+    
+.container-seccion1{
+    width: 1440px;
+    height: 780px;
+    display: flex;
+    background-color: #fcc302;
+}
+    /*OPEN CONTAINER LETRAS SECCION 1*/
+.container-letras-seccion1{
+    width: 870px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.container-letras-seccion1 h1{
+    color: white;
+    font-size: 70px;
+}
+
+.container-letras-seccion1 p{
+    color: white;
+    font-size: 30px;
+}
+    /*END CONTAINER LETRAS SECCION 1*/
+    /*OPEN CONTAINER IMG SECCION 1*/
+.container-img-header{
+    width: 570px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn-seccion1{
+    padding-top: 50px;
+}
+
+.container-btn-seccion1 a{
+    font-size: 25px;
+    
+}
+    /*END CONTAINER IMG SECCION 1*/
+
+
+
+/*END SECCION 1*/
+/*-------------------------------------------------------------------------------------------------*/
+/*OPEN SECCION 2*/
+.container-seccion2{
+    width: 1440px;
+    height: 794px;
+    display: flex;
+    background-color: #ffffff;
+}
+    /*OPEN CONTAINER LETRAS SECCION 2*/
+.container-letras-seccion2{
+    width: 753px;
+    height: 794px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container-letras-seccion2 h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 100px;
+    
+}
+
+.container-letras-seccion2 p{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+
+.container-letras-seccion2 a{
+    font-size: 25px;
+    width: 150px;
+    margin-left: 100px;
+}
+    /*END CONTAINER LETRAS SECCION 2*/
+    /*OPEN CONTAINER IMG SECCION 2*/
+.container-img-seccion2{
+    width: 687px;
+    height: 794px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-seccion2{
+    height: 517px;
+    padding-right: 100px;
+    position: absolute;
+}
+
+.img-play{
+    position: absolute;
+    height: 94px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+/*END SECCION 2*/
+/*-------------------------------------------------------------------------------------------------*/
+/*OPEN SECCION 3*/
+.container-seccion3{
+    width: 1440px;
+    height: 1016px;
+    background-color: #fcc302;
+    outline: 2px solid black;
+}
+
+.container-seccion4{
+    width: 1440px;
+    height: 794px;
+    background-color: #ffffff;
+    outline: 2px solid black;
+}
+
+.container-seccion5{
+    width: 1440px;
+    height: 1015px;
+    background-color: #fcc302;
+    outline: 2px solid black;
+}
+
+.container-seccion6{
+    width: 1440px;
+    height: 1073px;
+    background-color: #ffffff;
+    outline: 2px solid black;
+}
+
+.container-seccion7{
+    width: 1440px;
+    height: 573px;
+    background-color: #fcc302;
+    outline: 2px solid black;
+}
+
+.container-seccion8{
+    width: 1440px;
+    height: 1177px;
+    background-color: #ffffff;
+    outline: 2px solid black;
+}
+
+.container-seccion-footer{
+    width: 1440px;
+    height: 656px;
+    background-color: #343434;
+    outline: 2px solid black;
+}
+/*END CONTAINERS*/
+
+
+
+
