@@ -19,7 +19,7 @@ a{
 }
 
 .nav-bar ul li a{
-    color: white;
+    color: #ffffff;
     padding: 0px 10px 0px 10px;
     font-size: 22px;
 }
@@ -60,8 +60,8 @@ a{
 
 .btns-yellow{
     background-color: #fcc302;
-    color: white;
-    border: 2px solid white;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     padding: 15px;
     margin-right: 50px;
     border-radius: 5px;
@@ -93,7 +93,7 @@ a{
 }
 
 .container-letras-seccion1 h1{
-    color: white;
+    color: #ffffff;
     font-size: 70px;
 }
 
@@ -194,8 +194,56 @@ a{
     width: 1440px;
     height: 1016px;
     background-color: #fcc302;
-    outline: 2px solid black;
 }
+    /*OPEN CONTAINER LETRAS SECCION 3*/
+.container-letras-seccion3{
+    width: 1440px;
+    height: 375px;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-letras-seccion3 h1{
+    color: #ffffff;
+    font-size: 65px;
+}
+
+.container-letras-seccion3 p{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+    /*END CONTAINER LETRAS SECCION 3*/
+    /*OPEN CONTAINER IMG SECCION 3*/
+.container-img-seccion3{
+    width: 1440px;
+    height: 641px;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+
+    .container-img-seccion3 h3{
+        color: #ffffff;
+        text-align: center;
+        font-size: 28px;
+        padding-top: 15px;
+    }
+
+    .container-img-seccion3 p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+    }
+    /*END CONTAINER IMG SECCION 3*/
+
+/*END SECCION 3*/
 
 .container-seccion4{
     width: 1440px;
