@@ -69,6 +69,18 @@ a{
     height: 40px;
 }
 
+div a.btn-buy{
+    background-color: #00bec9;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
 .btns-yellow:hover{
     background-color: #00bec9;
     transform: scale(0.95);
@@ -307,20 +319,80 @@ a{
     height: 94px;
     padding: 0px 0px 50px 50px;
 }
-
-
-
-
-
 /*END SECCION 4*/
-
+/*---------------------------------------------------------------------------------------------------------*/
+/*OPEN SECCION 5*/
 .container-seccion5{
     width: 1440px;
-    height: 1015px;
+    height: 1016px;
     background-color: #fcc302;
     outline: 2px solid black;
 }
+    /*OPEN CONTAINER LETRAS SECCION 5*/
+.container-letras-seccion5{
+    width: 1440px;
+    height: 375px;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.container-letras-seccion5 h1{
+    color: #ffffff;
+    font-size: 65px;
+}
+
+.container-letras-seccion5 p{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+    /*END CONTAINER LETRAS SECCION 5*/
+    /*OPEN CONTAINER IMG SECCION 5*/
+.container-img-seccion5{
+    width: 1440px;
+    height: 641px;
+    background-color: #fcc302;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+
+    .container-img-seccion5 h2{
+        color:#ffffff;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .container-img-seccion5 span{
+        text-decoration: line-through;
+    }
+
+    .container-btn-buy{
+        display: flex;
+        justify-content: center;
+    }
+    /*END CONTAINER IMG SECCION 5*/
+
+/*END SECCION 3*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END SECCION 5*/
 .container-seccion6{
     width: 1440px;
     height: 1073px;
