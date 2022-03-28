@@ -84,7 +84,7 @@ div a.btn-buy{
 }
 
 .btns-yellow:hover{
-    transform:scale(1.1);
+    transform:scale(1.25);
     cursor: pointer;
     background-color: #00bec9;
 }
@@ -230,6 +230,7 @@ img.lupa{
 .img-play{
     position: absolute;
     height: 94px;
+    transition: .4s all;
 }
 
 .img-play:hover{
@@ -353,9 +354,11 @@ img.lupa{
 .img-play-seccion4{
     position: absolute;
     height: 94px;
+    transition: .4s all;
 }
 
 .img-play-seccion4:hover{
+    transform:scale(1.25);
     cursor: pointer;
 }
 
