@@ -48,6 +48,7 @@ a{
     height: 8000px;
     margin: auto;
     background-color: rgba(255, 0, 0, .5);
+    border: 2px solid gray;
     
 }
 
@@ -497,7 +498,6 @@ div a.btn-buy{
     width: 1440px;
     height: 1177px;
     background-color: #ffffff;
-    outline: 2px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -581,9 +581,8 @@ div a.btn-buy{
 /*OPEN FOOTER*/
 .container-seccion-footer{
     width: 1440px;
-    height: 656px;
+    height: 657px;
     background-color: #343434;
-    outline: 2px solid black;
     display: flex;
 }
 
