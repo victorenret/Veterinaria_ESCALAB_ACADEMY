@@ -7,6 +7,10 @@
 a{
     text-decoration: none;
 }
+
+.white h1, .white h2, .white h3, .white h4, .white h5, .white h6, .white p, .white a, input, strong{
+    color: white;
+}
 /* OPEN NAV*/
 .nav-bar ul{
     display: flex;
@@ -43,7 +47,6 @@ a{
     width: 1440px;
     height: 8000px;
     margin: auto;
-    outline: 2px solid black;
     background-color: rgba(255, 0, 0, .5);
     
 }
@@ -55,7 +58,6 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #daac00;
-    /* outline: 2px solid black; */
 }
 
 .btns-yellow{
@@ -82,8 +84,9 @@ div a.btn-buy{
 }
 
 .btns-yellow:hover{
+    transform:scale(1.1);
+    cursor: pointer;
     background-color: #00bec9;
-    transform: scale(0.95);
 }
 /*--------------------------------------------------------------------------------------------------------*/
 /*OPEN SECCION 1*/
@@ -142,7 +145,6 @@ div a.btn-buy{
     width: 1440px;
     height: 794px;
     display: flex;
-    outline: 2px solid black   ;
     background-color: #ffffff;
 }
     /*OPEN CONTAINER LETRAS SECCION 2*/
@@ -199,10 +201,6 @@ div a.btn-buy{
 }
 
 .img-play:hover{
-    -webkit-transform:scale(1.25);
-    -moz-transform:scale(1.25);
-    -ms-transform:scale(1.25);
-    -o-transform:scale(1.25);
     transform:scale(1.25);
     cursor: pointer;
 }
@@ -270,7 +268,6 @@ div a.btn-buy{
     height: 794px;
     display: flex;
     flex-direction: row-reverse;
-    outline: 2px solid black   ;
     background-color: #ffffff;
 }
     /*OPEN CONTAINER LETRAS SECCION 4*/
@@ -324,8 +321,12 @@ div a.btn-buy{
 .img-play-seccion4{
     position: absolute;
     height: 94px;
-    padding: 0px 0px 50px 50px;
 }
+
+.img-play-seccion4:hover{
+    cursor: pointer;
+}
+
 /*END SECCION 4*/
 /*---------------------------------------------------------------------------------------------------------*/
 /*OPEN SECCION 5*/
@@ -333,7 +334,6 @@ div a.btn-buy{
     width: 1440px;
     height: 1016px;
     background-color: #fcc302;
-    outline: 2px solid black;
 }
     /*OPEN CONTAINER LETRAS SECCION 5*/
 .container-letras-seccion5{
@@ -383,6 +383,11 @@ div a.btn-buy{
         display: flex;
         justify-content: center;
     }
+
+    .btn-buy:hover{
+        transform:scale(1.1);
+        border: 2px solid white;
+    }
     /*END CONTAINER IMG SECCION 5*
 /*END SECCION 5*/
 /*----------------------------------------------------------------------------------------------------------------------*/
@@ -391,9 +396,8 @@ div a.btn-buy{
     width: 1440px;
     height: 1073px;
     background-color: #ffffff;
-    outline: 2px solid black;
 }
-    /*OPEN CONTAINER LETRAS SECCION 3*/
+    /*OPEN CONTAINER LETRAS SECCION 6*/
 .container-letras-seccion6{
     width: 1440px;
     height: 375px;
@@ -444,10 +448,6 @@ div a.btn-buy{
     }
 
     .iconos:hover{
-        -webkit-transform:scale(1.25);
-        -moz-transform:scale(1.25);
-        -ms-transform:scale(1.25);
-        -o-transform:scale(1.25);
         transform:scale(1.25);
         filter: opacity(0.5) drop-shadow(0 0 0 black);
         cursor: pointer;
@@ -467,15 +467,116 @@ div a.btn-buy{
     width: 1440px;
     height: 573px;
     background-color: #fcc302;
-    outline: 2px solid black;
+    background-image: url(/img/image-1-section-6.png);
+    display: flex;
 }
+
+.columna-seccion7{
+    width: 480px;
+    height: 573px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.columna-seccion7 strong{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.columna-seccion7 h2{
+    font-weight: 500;
+    padding-top: 40px;
+}
+/*END SECCION 7*/
+/*----------------------------------------------------------------------------------------------------------*/
+/*OPEN SECCION 8*/
 
 .container-seccion8{
     width: 1440px;
     height: 1177px;
     background-color: #ffffff;
     outline: 2px solid black;
+    display: flex;
+    flex-direction: column;
 }
+    /*OPEN CONTAINER LETRAS*/
+.container-seccion8 .container-letras{
+    width: 1440px;
+    height: 404px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-seccion8 .container-letras h1{
+    font-size: 55px;
+}
+
+.container-seccion8 .container-letras p{
+    text-align: center;
+    font-size: 22px;
+}
+    /*END CONTAINER LETRAS*/
+    /*OPEN CONTAINER IMG*/
+
+.container-seccion8 .container-img{
+    width: 1440px;
+    height: 773px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.container-seccion8 .container-img h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.container-seccion8 .container-img h4{
+    color: #00bec9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.container-seccion8 .container-img p{
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.container-seccion8 .container-img a{
+    color: #00bec9;
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.container-seccion8 .columna-seccion8{
+    border: 2px solid #d6d6d6;
+}
+
+.img-seccion8{
+    padding: 0px 15px 0px 15px;
+}
+
+.img-seccion8:hover{
+    transform:scale(1.05);
+    border: none;
+}
+
+
+
+
+    /*END CONTAINER IMG*/
+/*END SECCION 8*/
+
+
+
 
 /*OPEN FOOTER*/
 .container-seccion-footer{
@@ -484,10 +585,6 @@ div a.btn-buy{
     background-color: #343434;
     outline: 2px solid black;
     display: flex;
-}
-
-.white h1, .white h2, .white h3, .white h4, .white h5, .white h6, .white p, .white a, input{
-    color: white;
 }
 
     /*OPEN CULUMNA 1*/
@@ -592,6 +689,10 @@ img.iconos-footer{
     display: flex;
     padding-top: 25px;
 }
+
+img.iconos-footer:hover{
+        transform:scale(1.25);
+    }
 
 
     /*END COLUMNA 3*/
