@@ -47,9 +47,6 @@ a{
     width: 1440px;
     height: 8000px;
     margin: auto;
-    background-color: rgba(255, 0, 0, .5);
-    border: 2px solid gray;
-    
 }
 
 .container-nav{
@@ -70,6 +67,7 @@ a{
     border-radius: 5px;
     width: 110px;
     height: 40px;
+    transition: .4s all;
 }
 
 div a.btn-buy{
@@ -81,6 +79,7 @@ div a.btn-buy{
     font-size: 27px;
     font-weight: 600;
     text-align: center;
+    transition: .4s all;
     
 }
 
@@ -98,6 +97,38 @@ div a.btn-buy{
     display: flex;
     background-color: #fcc302;
 }
+
+.search-header{
+    width: 174px;
+    height: 37px;
+    background-color:#fcc302;
+    border-style: none;
+    font-size: 17px;
+    padding-left: 15px;
+    box-shadow: 0 -5px 20px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+::-webkit-input-placeholder { color:#ffffff; } 
+
+.btn-header{
+    width: 30px;
+    height: 37px;
+    background-color: #00bec9;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.lupa{
+    height: 22px;
+}
+
+.espacio{
+    padding-right: 100px;
+}
+
     /*OPEN CONTAINER LETRAS SECCION 1*/
 .container-letras-seccion1{
     width: 870px;
@@ -443,14 +474,14 @@ div a.btn-buy{
         font-size: 20px;
     }
 
-    .iconos{
-        filter: opacity(0.4) drop-shadow(0 0 0 orange);
+    .iconos-seccion6{
+        filter: invert(27%) sepia(41%) saturate(2142%) hue-rotate(337deg) brightness(109%) contrast(98%);
         padding: 10px;
+        transition: .4s all;
     }
 
-    .iconos:hover{
+    .iconos-seccion6:hover{
         transform:scale(1.25);
-        filter: opacity(0.5) drop-shadow(0 0 0 black);
         cursor: pointer;
     }
 
@@ -468,7 +499,7 @@ div a.btn-buy{
     width: 1440px;
     height: 573px;
     background-color: #fcc302;
-    background-image: url(/img/image-1-section-6.png);
+    background-image: url(../img/image-1-section-6.png);
     display: flex;
 }
 
@@ -562,6 +593,7 @@ div a.btn-buy{
 
 .img-seccion8{
     padding: 0px 15px 0px 15px;
+    transition: .4s all;
 }
 
 .img-seccion8:hover{
@@ -605,6 +637,10 @@ div a.btn-buy{
 .container-seccion-footer .columna1 a{
     font-size: 18px;
 }
+
+.container-seccion-footer .columna1 a:hover{
+    color: #00bec9;
+}
     /*END COLUMNA 1*/
     /*OPEN COLUMNA 2*/
 
@@ -625,6 +661,10 @@ div a.btn-buy{
 
 .container-seccion-footer .columna2 a{
     font-size: 18px;
+}
+
+.container-seccion-footer .columna2 a:hover{
+    color: #00bec9;
 }
 
 .container-seccion-footer h2{
@@ -664,6 +704,7 @@ div a.btn-buy{
 
 img.iconos-footer{
     padding: 10px;
+    transition: .4s all;
 }
 
 .input-footer{
